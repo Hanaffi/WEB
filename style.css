@@ -2,11 +2,45 @@
 *** GENERAL
 **********************************************/
 
+
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
+}
+
+.default
+{
+    text-align: center;
+    font-size:15px;
+    color:grey;
+    position:absolute;
+    bottom:15px;
+    left:50%;
+    transform: translateX(-50%);
+    text-decoration-style: dotted;
+    text-shadow: black 1px 1px;
+}
+.final_score
+{
+    position:absolute;
+    left:50%;
+    top:520px;
+    font-size:18px;
+    padding:10px; 
+    width:160px;
+    color:#555;
+    font-family:"lato";
+    text-align: center;
+    transform:translateX(-50%);
+    border:2px dashed black;
+}
+.final_score:focus{
+
+outline:none;
 }
 
 .clearfix::after {
@@ -140,7 +174,6 @@ i {
 .btn-new { top: 45px;}
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
-
 .dice {
     position: absolute;
     left: 50%;
